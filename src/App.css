@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.editor-container,
+.form-preview-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.json-editor-container {
+  background: #f8f8f8;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.json-input {
+  width: 100%;
+  height: 70vh;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: none;
+}
+
+.dynamic-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-input,
+.form-textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.form-textarea {
+  height: 120px;
+  resize: none;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+}
+
+.radio-option {
+  margin-bottom: 8px;
+}
+
+.radio-input {
+  margin-right: 8px;
+}
